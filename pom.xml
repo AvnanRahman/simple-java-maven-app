@@ -24,24 +24,12 @@
         <version>3.0.2</version>
         <configuration>
            <archive>
-            <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
-            <manifest>
+              <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
               <mainClass>com.mycompany.app.App</mainClass>
             </manifest>
           </archive>
-        </configuration>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <verbose>true</verbose>
-          <fork>true</fork>
-          <executable><!-- path-to-javac --></executable>
-          <compilerVersion>1.8</compilerVersion>
         </configuration>
       </plugin>
     </plugins>
