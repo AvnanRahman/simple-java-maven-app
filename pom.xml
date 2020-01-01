@@ -44,7 +44,6 @@
           <compilerVersion>1.8</compilerVersion>
         </configuration>
       </plugin>
-      </plugin>
     </plugins>
   </build>
 </project>
